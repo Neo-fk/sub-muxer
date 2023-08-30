@@ -1,2 +1,12 @@
 pyrogram==1.2.9
 requests==2.24.0
+dnspython
+ffmpeg-python
+hachoir
+Pillow
+psutil
+pymongo
+Pyrogram
+pyromod
+python-dotenv
+requests
