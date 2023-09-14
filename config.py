@@ -3,7 +3,7 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get('6328374317:AAHkCzq47FK252GeJ_Uf1HNxRut24GPKpoI', None)
+    BOT_TOKEN = os.environ.get('6004366181:AAHszsmk9lVj2NaddTz-v5ff2sW9dr6LVXo', None)
     APP_ID = os.environ.get('22404062', None)
     API_HASH = os.environ.get('162d4eb8c9cbfe558121c6cf41f8df43', None)
 
