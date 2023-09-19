@@ -1,39 +1,24 @@
 {
-	"name": "Sub-Muxer",
-	"description": "Telegram bot to mux subtitles with the video",
+	"name": "Telegram Video Merge Bot",
+	"description": "A Telegram Video Merge Bot in Pyrogram by @YashOswalYO",
 	"keywords": [
-		"telegram-bot",
-		"subtitles",
-		"muxing"
+		"telegram",
+		"video",
+		"merge",
+		"bot"
 	],
-	"repository": "https://github.com/senithfox/sub-muxer",
-	"logo": "https://telegra.ph/file/47d0f4d2ff2685b3fb67f.png",
+	"repository": "https://github.com/yashoswalyo/MERGE-BOT",
+	"website": "https://telegram.dog/yashoswalyo",
+	"stack": "container",
+	"env": {
+		"CONFIG_FILE_URL": {
+			"description": "Make Config on gist and paste raw link "
+		}
+	},
 	"formation": {
 		"worker": {
 			"quantity": 1,
-			"size": "free"
+			"size": "eco"
 		}
-	},
-	"env": {
-		"BOT_TOKEN": {
-			"description": "Telegram bot token. get it from botfather"
-		},
-		"API_HASH": {
-			"description": "API Hash of your app"
-		},
-		"APP_ID": {
-			"description": "App Id of your app."
-		},
-		"ALLOWED_USERS": {
-			"description": "User id of users seperated by a comma allowed to use the bot."
-		}
-	},
-	"buildpacks": [
-		{
-			"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-		},
-		{
-			"url": "heroku/python"
-		}
-	]
+	}
 }
